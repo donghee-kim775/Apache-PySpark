@@ -5,9 +5,9 @@
 3. pyspark 및 delta lake 설치
 
 ## JAVA 설치
-'''bash
+```bash
 sudo apt update
 sudo apt install openjdk-17-jdk
 vi .bashrc
-'''
+```
 
