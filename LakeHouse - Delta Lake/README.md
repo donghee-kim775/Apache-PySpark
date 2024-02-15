@@ -44,3 +44,12 @@ source deltalakeenv/bin/activate
 pip3 install pyspark
 pip3 install delta-spark==2.2.0
 ```
+
+---
+
+### Storage Layer
+- storage layer - boto3.ipynb : storage layer(AWS S3)로부터 다양한 유형의 데이터를 가져옴
+
+### Processing Layer
+- processing layer - converttodelta.ipynb : storage layer로부터 가져온 다양한 유형의 데이터를 deltaTable 형식으로 변환시켜줌
+- processing layer - S3toDeltaTable.ipynb : storage layer에 저장된 DeltaTable을 가져와서 timetravel, overwrite 등 여러 기능 사용할 수 있게 해줌
